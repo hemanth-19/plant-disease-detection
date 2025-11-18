@@ -165,4 +165,4 @@ dependencies:
 This project is developed by AG_Robotics & Team for agricultural technology advancement.
 
 ---
-**Live Application**: https://plant-disease-demo-a7a8a.web.app
+**Live Application**: https://plant-disease-demo-a7a8a.web.app# Mobile Apps Building...
