@@ -31,7 +31,7 @@ jobs:
       run: flutter build apk --release
     
     - name: Upload APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: plant-disease-detection.apk
         path: build/app/outputs/flutter-apk/app-release.apk
@@ -60,7 +60,7 @@ jobs:
         cd build/ios/iphoneos && zip -r plant-disease-detection.ipa Payload/
     
     - name: Upload IPA
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: plant-disease-detection.ipa
         path: build/ios/iphoneos/plant-disease-detection.ipa
